@@ -89,10 +89,10 @@ def format_phone(num):
 def do_zip_update():
     success = False
     if DEBUG_MODE:
-        zip_url = "https://github.com/TheSpeedX/TBomb/archive/dev.zip"
+        zip_url = "https://github.com/TEBT/bomb/archive/refs/heads/main.zip"
         dir_name = "TBomb-dev"
     else:
-        zip_url = "https://github.com/TheSpeedX/TBomb/archive/master.zip"
+        zip_url = "https://github.com/TEBT/bomb/archive/refs/heads/main.zip"
         dir_name = "TBomb-master"
     print(ALL_COLORS[0]+"Downloading ZIP ... "+RESET_ALL)
     response = requests.get(zip_url)
@@ -121,7 +121,7 @@ def do_zip_update():
     else:
         mesgdcrt.FailureMessage("Unable to update TEBT Bomb.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
+            "Grab The Latest one From https://github.com/TEBT/bomb.git")
 
     sys.exit()
 
