@@ -29,7 +29,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing TEBT'
     else
-        figlet TBomb
+        figlet TEBT
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32Arafat Khan \e[0m"
@@ -39,7 +39,7 @@ banner() {
     fi
     echo -e "\e[1;34m For Any Queries Join Us!!!\e[0m"
     echo -e "\e[1;32m           Facebook:Facebook.com/arafatrahman.khan420  \e[0m"
-    echo -e "\e[4;32m  Website:mindhacker007.xyz\e[0m"
+    echo -e "\e[4;32m            Website:mindhacker007.xyz\e[0m"
     echo " "
     echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
     echo " "
